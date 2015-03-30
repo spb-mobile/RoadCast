@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75ECD4F1AA8816900726196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD4E1AA8816900726196 /* main.m */; };
+		B75ECD521AA8816900726196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD511AA8816900726196 /* AppDelegate.m */; };
+		B75ECD5B1AA8816900726196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75ECD591AA8816900726196 /* Main.storyboard */; };
+		B75ECD5D1AA8816900726196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75ECD5C1AA8816900726196 /* Images.xcassets */; };
+		B75ECD601AA8816900726196 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75ECD5E1AA8816900726196 /* LaunchScreen.xib */; };
+		B75ECD6C1AA8816900726196 /* RoadCastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD6B1AA8816900726196 /* RoadCastTests.m */; };
+		B75ECD7B1AA88ADD00726196 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD7A1AA88ADD00726196 /* MessagesViewController.m */; };
+		B75ECD7E1AA88B8200726196 /* NewMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD7D1AA88B8200726196 /* NewMessageViewController.m */; };
+		B75ECD811AA88C4600726196 /* AddVehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD801AA88C4600726196 /* AddVehicleViewController.m */; };
+		B75ECD841AA88D8400726196 /* MyVehiclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD831AA88D8400726196 /* MyVehiclesViewController.m */; };
+		B75ECD8B1AA8922F00726196 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD8A1AA8922F00726196 /* User.m */; };
+		B75ECD8E1AA8926A00726196 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD8D1AA8926A00726196 /* Vehicle.m */; };
+		B75ECD911AA8928700726196 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD901AA8928700726196 /* Message.m */; };
+		B7BE3C0D1ABF304C00474146 /* MessageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3C0C1ABF304C00474146 /* MessageStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B75ECD661AA8816900726196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75ECD411AA8816900726196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75ECD481AA8816900726196;
+			remoteInfo = RoadCast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B75ECD491AA8816900726196 /* RoadCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75ECD4D1AA8816900726196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75ECD4E1AA8816900726196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B75ECD501AA8816900726196 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B75ECD511AA8816900726196 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B75ECD5A1AA8816900726196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B75ECD5C1AA8816900726196 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B75ECD5F1AA8816900726196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B75ECD651AA8816900726196 /* RoadCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75ECD6A1AA8816900726196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75ECD6B1AA8816900726196 /* RoadCastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadCastTests.m; sourceTree = "<group>"; };
+		B75ECD791AA88ADD00726196 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		B75ECD7A1AA88ADD00726196 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		B75ECD7C1AA88B8200726196 /* NewMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMessageViewController.h; sourceTree = "<group>"; };
+		B75ECD7D1AA88B8200726196 /* NewMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMessageViewController.m; sourceTree = "<group>"; };
+		B75ECD7F1AA88C4600726196 /* AddVehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVehicleViewController.h; sourceTree = "<group>"; };
+		B75ECD801AA88C4600726196 /* AddVehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVehicleViewController.m; sourceTree = "<group>"; };
+		B75ECD821AA88D8400726196 /* MyVehiclesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVehiclesViewController.h; sourceTree = "<group>"; };
+		B75ECD831AA88D8400726196 /* MyVehiclesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVehiclesViewController.m; sourceTree = "<group>"; };
+		B75ECD891AA8922F00726196 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B75ECD8A1AA8922F00726196 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B75ECD8C1AA8926A00726196 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		B75ECD8D1AA8926A00726196 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		B75ECD8F1AA8928700726196 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		B75ECD901AA8928700726196 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		B7BE3C0B1ABF304C00474146 /* MessageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStore.h; sourceTree = "<group>"; };
+		B7BE3C0C1ABF304C00474146 /* MessageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75ECD461AA8816900726196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75ECD621AA8816900726196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75ECD401AA8816900726196 = {
+			isa = PBXGroup;
+			children = (
+				B75ECD4B1AA8816900726196 /* RoadCast */,
+				B75ECD681AA8816900726196 /* RoadCastTests */,
+				B75ECD4A1AA8816900726196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75ECD4A1AA8816900726196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75ECD491AA8816900726196 /* RoadCast.app */,
+				B75ECD651AA8816900726196 /* RoadCastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75ECD4B1AA8816900726196 /* RoadCast */ = {
+			isa = PBXGroup;
+			children = (
+				B75ECD501AA8816900726196 /* AppDelegate.h */,
+				B75ECD511AA8816900726196 /* AppDelegate.m */,
+				B75ECD591AA8816900726196 /* Main.storyboard */,
+				B75ECD881AA8922F00726196 /* Model */,
+				B75ECD781AA88ADD00726196 /* View Controllers */,
+				B75ECD5C1AA8816900726196 /* Images.xcassets */,
+				B75ECD5E1AA8816900726196 /* LaunchScreen.xib */,
+				B75ECD4C1AA8816900726196 /* Supporting Files */,
+			);
+			path = RoadCast;
+			sourceTree = "<group>";
+		};
+		B75ECD4C1AA8816900726196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75ECD4D1AA8816900726196 /* Info.plist */,
+				B75ECD4E1AA8816900726196 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B75ECD681AA8816900726196 /* RoadCastTests */ = {
+			isa = PBXGroup;
+			children = (
+				B75ECD6B1AA8816900726196 /* RoadCastTests.m */,
+				B75ECD691AA8816900726196 /* Supporting Files */,
+			);
+			path = RoadCastTests;
+			sourceTree = "<group>";
+		};
+		B75ECD691AA8816900726196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75ECD6A1AA8816900726196 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B75ECD781AA88ADD00726196 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B75ECD791AA88ADD00726196 /* MessagesViewController.h */,
+				B75ECD7A1AA88ADD00726196 /* MessagesViewController.m */,
+				B75ECD7C1AA88B8200726196 /* NewMessageViewController.h */,
+				B75ECD7D1AA88B8200726196 /* NewMessageViewController.m */,
+				B75ECD7F1AA88C4600726196 /* AddVehicleViewController.h */,
+				B75ECD801AA88C4600726196 /* AddVehicleViewController.m */,
+				B75ECD821AA88D8400726196 /* MyVehiclesViewController.h */,
+				B75ECD831AA88D8400726196 /* MyVehiclesViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B75ECD881AA8922F00726196 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE3C0B1ABF304C00474146 /* MessageStore.h */,
+				B7BE3C0C1ABF304C00474146 /* MessageStore.m */,
+				B75ECD891AA8922F00726196 /* User.h */,
+				B75ECD8A1AA8922F00726196 /* User.m */,
+				B75ECD8C1AA8926A00726196 /* Vehicle.h */,
+				B75ECD8D1AA8926A00726196 /* Vehicle.m */,
+				B75ECD8F1AA8928700726196 /* Message.h */,
+				B75ECD901AA8928700726196 /* Message.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75ECD481AA8816900726196 /* RoadCast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75ECD6F1AA8816900726196 /* Build configuration list for PBXNativeTarget "RoadCast" */;
+			buildPhases = (
+				B75ECD451AA8816900726196 /* Sources */,
+				B75ECD461AA8816900726196 /* Frameworks */,
+				B75ECD471AA8816900726196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadCast;
+			productName = RoadCast;
+			productReference = B75ECD491AA8816900726196 /* RoadCast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B75ECD641AA8816900726196 /* RoadCastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75ECD721AA8816900726196 /* Build configuration list for PBXNativeTarget "RoadCastTests" */;
+			buildPhases = (
+				B75ECD611AA8816900726196 /* Sources */,
+				B75ECD621AA8816900726196 /* Frameworks */,
+				B75ECD631AA8816900726196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75ECD671AA8816900726196 /* PBXTargetDependency */,
+			);
+			name = RoadCastTests;
+			productName = RoadCastTests;
+			productReference = B75ECD651AA8816900726196 /* RoadCastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75ECD411AA8816900726196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = FirstLineSoftware;
+				TargetAttributes = {
+					B75ECD481AA8816900726196 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B75ECD641AA8816900726196 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B75ECD481AA8816900726196;
+					};
+				};
+			};
+			buildConfigurationList = B75ECD441AA8816900726196 /* Build configuration list for PBXProject "RoadCast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75ECD401AA8816900726196;
+			productRefGroup = B75ECD4A1AA8816900726196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75ECD481AA8816900726196 /* RoadCast */,
+				B75ECD641AA8816900726196 /* RoadCastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75ECD471AA8816900726196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75ECD5B1AA8816900726196 /* Main.storyboard in Resources */,
+				B75ECD601AA8816900726196 /* LaunchScreen.xib in Resources */,
+				B75ECD5D1AA8816900726196 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75ECD631AA8816900726196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75ECD451AA8816900726196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75ECD811AA88C4600726196 /* AddVehicleViewController.m in Sources */,
+				B75ECD8B1AA8922F00726196 /* User.m in Sources */,
+				B75ECD841AA88D8400726196 /* MyVehiclesViewController.m in Sources */,
+				B75ECD521AA8816900726196 /* AppDelegate.m in Sources */,
+				B7BE3C0D1ABF304C00474146 /* MessageStore.m in Sources */,
+				B75ECD8E1AA8926A00726196 /* Vehicle.m in Sources */,
+				B75ECD4F1AA8816900726196 /* main.m in Sources */,
+				B75ECD7B1AA88ADD00726196 /* MessagesViewController.m in Sources */,
+				B75ECD911AA8928700726196 /* Message.m in Sources */,
+				B75ECD7E1AA88B8200726196 /* NewMessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75ECD611AA8816900726196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75ECD6C1AA8816900726196 /* RoadCastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B75ECD671AA8816900726196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75ECD481AA8816900726196 /* RoadCast */;
+			targetProxy = B75ECD661AA8816900726196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B75ECD591AA8816900726196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75ECD5A1AA8816900726196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B75ECD5E1AA8816900726196 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75ECD5F1AA8816900726196 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75ECD6D1AA8816900726196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B75ECD6E1AA8816900726196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75ECD701AA8816900726196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoadCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B75ECD711AA8816900726196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoadCast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B75ECD731AA8816900726196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoadCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadCast.app/RoadCast";
+			};
+			name = Debug;
+		};
+		B75ECD741AA8816900726196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoadCastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadCast.app/RoadCast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75ECD441AA8816900726196 /* Build configuration list for PBXProject "RoadCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75ECD6D1AA8816900726196 /* Debug */,
+				B75ECD6E1AA8816900726196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75ECD6F1AA8816900726196 /* Build configuration list for PBXNativeTarget "RoadCast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75ECD701AA8816900726196 /* Debug */,
+				B75ECD711AA8816900726196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75ECD721AA8816900726196 /* Build configuration list for PBXNativeTarget "RoadCastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75ECD731AA8816900726196 /* Debug */,
+				B75ECD741AA8816900726196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75ECD411AA8816900726196 /* Project object */;
+}

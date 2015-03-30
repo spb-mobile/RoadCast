@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D08A49E1-2F53-4605-AF6F-03B2993B5035</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RoadCast</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2F2B5BAB34C4FD3862BD74B9F7682A5CF112E8F</key>
+		<string>github.com:momospb/Meeting-s-Projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RoadCast/RoadCast.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2F2B5BAB34C4FD3862BD74B9F7682A5CF112E8F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:momospb/Meeting-s-Projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2F2B5BAB34C4FD3862BD74B9F7682A5CF112E8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2F2B5BAB34C4FD3862BD74B9F7682A5CF112E8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Meeting-s-Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
